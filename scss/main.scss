@@ -10,3 +10,12 @@
 ul {
 	text-decoration: none;
 }
+
+body {
+	min-height: 100vh;
+	background-color: $clr-white;
+	background-image: url('../images/bg-pattern-top-mobile.svg'),
+		url('../images/bg-pattern-bottom-mobile.svg');
+	background-repeat: no-repeat;
+	background-position: top left, bottom right;
+}
