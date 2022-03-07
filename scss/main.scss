@@ -8,7 +8,7 @@
 }
 
 ul {
-	text-decoration: none;
+	list-style: none;
 }
 
 body {
@@ -20,4 +20,5 @@ body {
 	background-position: top left, bottom right;
 	font-family: $font-stack;
 	font-weight: $wght-body;
+	padding: 2.125rem;
 }
