@@ -27,10 +27,17 @@ body {
 	justify-content: center;
 }
 
+// Container
+.container {
+	max-width: $max-width;
+}
+
 // Proof Section
 .proof {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 
 	.marketing {
@@ -50,6 +57,7 @@ body {
 	}
 
 	.ratings {
+		width: 100%;
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 1.25rem;
@@ -122,3 +130,5 @@ body {
 		}
 	}
 }
+
+@import 'media';

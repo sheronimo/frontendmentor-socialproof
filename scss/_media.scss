@@ -1,0 +1,18 @@
+@media (min-width: 768px) {
+	body {
+		background-image: url('../images/bg-pattern-top-desktop.svg'),
+			url('../images/bg-pattern-bottom-desktop.svg');
+	}
+
+	// Proof Section
+	.proof {
+		grid-template-columns: 3fr 2fr;
+		grid-gap: 5rem;
+		text-align: left;
+	}
+
+	// Testimonials Section
+	.testimonials {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
