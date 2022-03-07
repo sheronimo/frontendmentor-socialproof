@@ -66,3 +66,44 @@ body {
 		}
 	}
 }
+
+// Testimonials Section
+.testimonials {
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1rem;
+
+	.testimonial {
+		background: $clr-primary;
+		color: $clr-white;
+		border-radius: 5px;
+		padding: 2rem;
+
+		&-header {
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+
+			img {
+				height: 2.5rem;
+				width: 2.5rem;
+				border-radius: 50%;
+			}
+		}
+
+		&-name {
+			font-weight: $wght-headings-big;
+			line-height: 1.2;
+		}
+
+		&-status {
+			color: $clr-secondary;
+		}
+
+		&-desc {
+			font-weight: $wght-headings-small;
+			margin-top: 1rem;
+		}
+	}
+}

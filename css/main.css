@@ -77,4 +77,50 @@ body {
   color: #502050;
   font-weight: 700;
 }
+
+.testimonials {
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.testimonials .testimonial {
+  background: #502050;
+  color: white;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.testimonials .testimonial-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.testimonials .testimonial-header img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.testimonials .testimonial-name {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.testimonials .testimonial-status {
+  color: #ee68a4;
+}
+
+.testimonials .testimonial-desc {
+  font-weight: 500;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
