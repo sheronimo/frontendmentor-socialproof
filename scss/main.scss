@@ -20,5 +20,29 @@ body {
 	background-position: top left, bottom right;
 	font-family: $font-stack;
 	font-weight: $wght-body;
-	padding: 2.125rem;
+	line-height: 1.7;
+	padding: 1.5rem;
+}
+
+// Proof Section
+.proof {
+	display: flex;
+	flex-direction: column;
+
+	.marketing {
+		text-align: center;
+
+		&-title {
+			color: $clr-primary;
+			font-weight: $wght-headings-big;
+			font-size: 2rem;
+			line-height: 1;
+		}
+
+		&-desc {
+			color: $clr-neutral-darker;
+			margin-top: 1rem;
+			font-size: 0.9rem;
+		}
+	}
 }
