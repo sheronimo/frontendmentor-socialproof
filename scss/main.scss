@@ -20,8 +20,11 @@ body {
 	background-position: top left, bottom right;
 	font-family: $font-stack;
 	font-weight: $wght-body;
-	line-height: 1.7;
-	padding: 1.5rem;
+	padding: 5rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 // Proof Section
@@ -40,15 +43,17 @@ body {
 
 		&-desc {
 			color: $clr-neutral-darker;
-			margin-top: 1rem;
+			margin-top: 1.5rem;
 			font-size: 0.9rem;
+			line-height: 1.7;
 		}
 	}
 
 	.ratings {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-gap: 1rem;
+		grid-gap: 1.25rem;
+		margin-top: 2.25rem;
 
 		.rating {
 			background-color: $clr-neutral-lighter;
@@ -59,9 +64,15 @@ body {
 			align-items: center;
 			justify-content: center;
 
+			&-stars img {
+				margin: 0 0.1rem;
+			}
+
 			&-text {
 				color: $clr-primary;
 				font-weight: $wght-headings-big;
+				font-size: 0.8rem;
+				margin-top: 0.5rem;
 			}
 		}
 	}
@@ -69,7 +80,7 @@ body {
 
 // Testimonials Section
 .testimonials {
-	margin-top: 1rem;
+	margin-top: 2.75rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1rem;
@@ -78,12 +89,12 @@ body {
 		background: $clr-primary;
 		color: $clr-white;
 		border-radius: 5px;
-		padding: 2rem;
+		padding: 2.5rem 2rem;
 
 		&-header {
 			display: flex;
 			align-items: center;
-			gap: 1rem;
+			gap: 1.5rem;
 
 			img {
 				height: 2.5rem;
@@ -94,16 +105,20 @@ body {
 
 		&-name {
 			font-weight: $wght-headings-big;
-			line-height: 1.2;
+			font-size: 0.8rem;
 		}
 
 		&-status {
 			color: $clr-secondary;
+			font-size: 0.8rem;
+			margin-top: 0.5rem;
 		}
 
 		&-desc {
 			font-weight: $wght-headings-small;
-			margin-top: 1rem;
+			margin-top: 1.75rem;
+			line-height: 1.6;
+			font-size: 0.8rem;
 		}
 	}
 }

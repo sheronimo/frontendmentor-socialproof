@@ -18,8 +18,20 @@ body {
   background-position: top left, bottom right;
   font-family: "Spartan", sans-serif;
   font-weight: 400;
-  line-height: 1.7;
-  padding: 1.5rem;
+  padding: 5rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .proof {
@@ -42,8 +54,9 @@ body {
 
 .proof .marketing-desc {
   color: #937b92;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 0.9rem;
+  line-height: 1.7;
 }
 
 .proof .ratings {
@@ -51,7 +64,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  grid-gap: 1.25rem;
+  margin-top: 2.25rem;
 }
 
 .proof .ratings .rating {
@@ -73,13 +87,19 @@ body {
           justify-content: center;
 }
 
+.proof .ratings .rating-stars img {
+  margin: 0 0.1rem;
+}
+
 .proof .ratings .rating-text {
   color: #502050;
   font-weight: 700;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .testimonials {
-  margin-top: 1rem;
+  margin-top: 2.75rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -91,7 +111,7 @@ body {
   background: #502050;
   color: white;
   border-radius: 5px;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
 }
 
 .testimonials .testimonial-header {
@@ -101,7 +121,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .testimonials .testimonial-header img {
@@ -112,15 +132,19 @@ body {
 
 .testimonials .testimonial-name {
   font-weight: 700;
-  line-height: 1.2;
+  font-size: 0.8rem;
 }
 
 .testimonials .testimonial-status {
   color: #ee68a4;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .testimonials .testimonial-desc {
   font-weight: 500;
-  margin-top: 1rem;
+  margin-top: 1.75rem;
+  line-height: 1.6;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=main.css.map */
