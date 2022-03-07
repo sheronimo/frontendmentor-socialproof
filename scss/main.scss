@@ -28,10 +28,9 @@ body {
 .proof {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 
 	.marketing {
-		text-align: center;
-
 		&-title {
 			color: $clr-primary;
 			font-weight: $wght-headings-big;
@@ -43,6 +42,27 @@ body {
 			color: $clr-neutral-darker;
 			margin-top: 1rem;
 			font-size: 0.9rem;
+		}
+	}
+
+	.ratings {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 1rem;
+
+		.rating {
+			background-color: $clr-neutral-lighter;
+			border-radius: 5px;
+			padding: 1rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			&-text {
+				color: $clr-primary;
+				font-weight: $wght-headings-big;
+			}
 		}
 	}
 }

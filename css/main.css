@@ -30,9 +30,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.proof .marketing {
   text-align: center;
 }
 
@@ -47,5 +44,37 @@ body {
   color: #937b92;
   margin-top: 1rem;
   font-size: 0.9rem;
+}
+
+.proof .ratings {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.proof .ratings .rating {
+  background-color: #f7f2f7;
+  border-radius: 5px;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.proof .ratings .rating-text {
+  color: #502050;
+  font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */
