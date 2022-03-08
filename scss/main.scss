@@ -139,4 +139,21 @@ body {
 	}
 }
 
+.attribution {
+	margin-top: 6rem;
+	padding: 1.5rem;
+	font-size: 0.75rem;
+	text-align: center;
+
+	a {
+		color: $clr-primary;
+		text-decoration: none;
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $clr-secondary;
+		}
+	}
+}
+
 @import 'media';

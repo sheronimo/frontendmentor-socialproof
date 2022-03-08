@@ -162,6 +162,24 @@ body {
           transform: translateY(2rem);
 }
 
+.attribution {
+  margin-top: 6rem;
+  padding: 1.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #502050;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+  color: #ee68a4;
+}
+
 @media (max-width: 56.25rem) {
   .ratings {
     -ms-grid-column-align: stretch;
