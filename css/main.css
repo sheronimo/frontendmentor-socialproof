@@ -186,6 +186,10 @@ body {
 @media (max-width: 40rem) {
   body {
     padding: 5rem 0rem;
+    background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+  }
+  .marketing {
+    text-align: center;
   }
   .container {
     -ms-grid-columns: 1fr;
