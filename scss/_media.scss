@@ -1,0 +1,40 @@
+@media (max-width: 56.25rem) {
+	.ratings {
+		justify-self: stretch;
+		.rating {
+			flex-direction: column;
+
+			&:first-child {
+				transform: translateX(0);
+			}
+
+			&:nth-child(2) {
+				transform: translateX(0);
+			}
+		}
+	}
+}
+
+@media (max-width: 40rem) {
+	body {
+		padding: 5rem 0rem;
+	}
+
+	.container {
+		grid-template-columns: 1fr;
+	}
+
+	.testimonials {
+		grid-template-columns: 1fr;
+
+		.testimonial {
+			&:nth-child(2) {
+				transform: translateY(0);
+			}
+
+			&:last-child {
+				transform: translateY(0);
+			}
+		}
+	}
+}

@@ -78,6 +78,7 @@ body {
 		}
 
 		&:first-child {
+			margin-top: 0;
 			transform: translateX(-6rem);
 		}
 
@@ -137,3 +138,5 @@ body {
 		}
 	}
 }
+
+@import 'media';
